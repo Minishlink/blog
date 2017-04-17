@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Remove sensitive information from your Git repository"
-categories: git
+categories: dev
+tags: git
 ---
 # Remove sensitive information from your Git repository
 **DISCLAIMER**: This will rewrite your Git history and you won't be able to go back in time if you don't make a backup.
