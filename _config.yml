@@ -1,8 +1,7 @@
-title:        Louis' discombobulations
-paginate:     1
+title: Louis' discombobulations
 
 author:
-  name:       Louis Lagrange
-  url:        http://louislagrange.free.fr
+  name: Louis Lagrange
+  url: "http://louislagrange.free.fr"
 
 theme: jekyll-theme-cayman
