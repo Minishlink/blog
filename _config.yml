@@ -5,3 +5,5 @@ author:
   url: "http://louislagrange.free.fr"
 
 theme: jekyll-theme-cayman
+
+baseurl: '/blog'
