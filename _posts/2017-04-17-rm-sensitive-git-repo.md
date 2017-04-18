@@ -26,3 +26,6 @@ There are several ways to get rid of them completely, and here's the quickest:
 8. Notify your coworkers that they have to clean their branches
     * `git fetch origin/branch`
     * `git checkout -B branch origin/branch`
+
+Note that if your repo is public, the Git history might have been cloned somewhere in the world,
+so your sensitive are already compromised. In that case, beware of a "Streisand" effect...
