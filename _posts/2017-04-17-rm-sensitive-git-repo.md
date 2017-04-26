@@ -7,7 +7,7 @@ tags: git
 # Remove sensitive information from your Git repository
 **DISCLAIMER**: This will rewrite your Git history and you won't be able to go back in time if you don't make a backup.
 
-You have removed secret variables from your repo, but they still show up in your Git history.
+You have removed secret variables from your repo, but they obviously still show up in your Git history.
 There are several ways to get rid of them completely, and here's the quickest:
 
 1. Install [BFG](https://rtyley.github.io/bfg-repo-cleaner/)
