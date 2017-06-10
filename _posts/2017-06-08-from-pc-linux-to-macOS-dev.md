@@ -4,11 +4,11 @@ title:  "From PC/Linux to macOS as a dev"
 categories: dev
 tags: macOS
 ---
-# [WIP] From PC/Linux to macOS as a dev
+# From PC/Linux to macOS as a dev
 
 <blockquote>
-So you got this shiny new Macbook Pro at your new job, it's great ! Though you prefer using 
-Windows or Linux at home, you can't develop macOS or iOS apps on those because Apple decided to.
+So you've got this shiny new Macbook Pro at your new job, it's great! Though you prefer using 
+Windows or Linux at home, you can't develop macOS or iOS apps on those, because Apple decided to.
 You don't want to be lost switching between your work and home computer, 
 and that's why you're reading this article!
 </blockquote>
@@ -24,7 +24,7 @@ By default, your Mac trackpad triggers menus when you touch the pad with two fin
 Let's enable our right-click in `System Preferences/Trackpad/Point & Click`:
 change `Secondary click` option to `Click in bottom right corner`.
 
-![image]
+![secondary click]({{ site.baseurl }}/assets/articles/2017-06-08-from-pc-linux-to-macOS-dev/trackpad_secondaryclick.png)
 
 ### Force Touch
 Force click / Taptic engine / Force touch is the gadget of the MBP. It's fun for 10 minutes,
@@ -32,7 +32,7 @@ but when you want to do some actual work, you're constantly bothered by this fea
 opening definitions and what not. Let's disable this behavior in `System Preferences/Trackpad/Point & Click`:
 disable `Look up & data detectors`. 
 
-[image]
+![forcetouch]({{ site.baseurl }}/assets/articles/2017-06-08-from-pc-linux-to-macOS-dev/trackpad_forcetouch.png)
 
 ### Horizontal scroll
 By default, the trackpad is configured to switch between pages when you swipe with 2 fingers.
@@ -40,21 +40,21 @@ This makes it impossible to scroll horizontally in long web pages (like Trello),
 in your history. In `System Preferences/Trackpad/More Gestures`, set the `Swipe between pages` option 
 to `Swipe with three fingers` (or disable it).
 
-[image]
+![horizontal scroll]({{ site.baseurl }}/assets/articles/2017-06-08-from-pc-linux-to-macOS-dev/trackpad_scroll_horizontal.png)
 
 ## The keyboard
 
-This is the most frustrating thing ever. Look at this, it's just ridiculous :
+This is the most frustrating thing ever. Look at this, it's just plain ridiculous:
 
- [image Mac][image Windows]
+![layout]({{ site.baseurl }}/assets/articles/2017-06-08-from-pc-linux-to-macOS-dev/keyboard_macwindows.jpg)
  
-By the way, Microsoft added their Windows key after Apple
+By the way, I'm not pointing finger to Apple since Microsoft added their Windows key after Apple.
 
 ### PC layout
 You probably already have done that. Change your keyboard layout to the PC one in
 `System Preferences/Keyboard/Input sources`, click the + and look for `PC`.
 
-[image]
+![layout]({{ site.baseurl }}/assets/articles/2017-06-08-from-pc-linux-to-macOS-dev/keyboard_layout.png)
 
 Obviously, don't do that if you look at your keyboard when you're typing.
 Otherwise, you may become really confused with which key is which.
@@ -66,7 +66,7 @@ Copy pasting becomes a real pain on macOS. Let's fix that by going to
 `System Preferences/Keyboard` and clicking on `Modifier keys`.
 Here, switch the Control and Command keys.
 
-[image]
+![modifier keys]({{ site.baseurl }}/assets/articles/2017-06-08-from-pc-linux-to-macOS-dev/keyboard_modifierkeys.png)
 
 Here's a quick tip about cut/paste. You can't do a `Control+X` (previously `Command+X`) on macOS 
 to cut files. Sure, you can have multiple Windows open (how ironic), and then drag and drop, 
@@ -84,24 +84,24 @@ The most straightforward way to fix this is to create a new system-wide Command+
 Let's override the `Invert colors` shortcut to do just that. Head over to
 `System Preferences/Keyboard/Shortcuts/Accessibility`.
 
-[image]
+![keyboard_commandq]({{ site.baseurl }}/assets/articles/2017-06-08-from-pc-linux-to-macOS-dev/keyboard_commandq.png)
 
 ### Lock session shortcut
 When you click on the Apple icon, you can "Log out", but this will close your applications 
 and that costs time when logging in back later. To fix that, we'll use a screen saver shortcut.
 
 First, head over to `System Preferences/Security & Privacy`, and enable `Require password...`.
-[image]
+
+![require password]({{ site.baseurl }}/assets/articles/2017-06-08-from-pc-linux-to-macOS-dev/lock_requirepassword.png)
 
 Next, go to `System Preferences/Desktop & Screen Saver/Screen Saver`, and choose and customize 
-your favorite Screen Saver (try my [360° Panorama / Photo Sphere Screen Saver](TODO link)!).
+your favorite Screen Saver (try my [360° Panorama / Photo Sphere Screen Saver](https://github.com/Minishlink/360-panorama-screensaver)!).
 
-[TODO image avec Panorama Screen Saver]
+![Panorama Screen Saver]({{ site.baseurl }}/assets/articles/2017-06-08-from-pc-linux-to-macOS-dev/lock_screensaver.png)
 
-Finally, in the same panel, click Hot Corners` and add a shortcut there.
-You can also add a new shortcut in the `System Preferences/Keyboard/Shortcuts` menu.`
+Finally, in the same panel, click `Hot Corners` and add a shortcut there.
+You can also add a new shortcut in the `System Preferences/Keyboard/Shortcuts` menu.
 
-[image]
+![hot corner]({{ site.baseurl }}/assets/articles/2017-06-08-from-pc-linux-to-macOS-dev/lock_hotcorner.png)
 
-### Switch windows shortcut
-You can't do a `Alt+Tab` without compromising other shortcuts. TODO Control + the key above Tab.
+That's a wrap! If you want to share more useful tips, send me a tweet [@Minishlink](https://twitter.com/Minishlink)! :)
